@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo centralizado</title>
+    <style>
+        body{
+            background-color: white;
+            height: 100%;
+        }
+        section{
+            background-color: blue;
+            border:  5px solid yellow;
+            padding: 15px;
+            margin: auto;
+            height: 90vh;
+            position: relative;
+        }
+        article{
+            background-color: red;
+            width: 300px;
+            height: 200px;
+            margin: auto;
+            border:  5px solid yellow;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+       a{
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            margin: auto;
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <article>
+            <a href="center-two.html" target="_parent"><span>Here's Center</span></a>
+        </article>
+    </section>
+</body>
+</html>
